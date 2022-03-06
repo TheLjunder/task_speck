@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap');
+*,
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body{
+    background-color: lightgray;
+}
+
+ul{
+    list-style: none;
+}
+
+main{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns:25% 1fr;
+    grid-gap: 1rem;
+}
+
+.LijevaStrana,
+.Obrazovanje,
+.RadnoIskustvo{
+    padding: 1rem;
+    background-color: white;
+}
+
+.OsobniPodaci, 
+.Vjestine, 
+.Jezici,
+.VozackaDozvola,
+.Interesi{
+    margin-top: 1rem;
+    line-height: 2;
+}
+
+.OsobniPodaci hr{
+    margin-top: 1rem;
+}
+
+.MojaSlika{
+    position: relative;
+}
+
+.MojaSlika img{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 60%;
+}
+
+.PoravnajSliku{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.MojaSlika h2{
+    text-align: center;
+}
+
+
+.Sada{
+    background-color: rgb(255, 79, 79);
+    color: white;
+    padding: 0.4rem;
+}
+
+.Obrazovanje, 
+.RadnoIskustvo{
+    line-height: 2;
+    border-radius: 3px;
+    padding: 1rem;
+}
+
+.Obrazovanje{
+    margin-bottom: 1rem;
+}
+
+.Obrazovanje ul{
+    margin: 2rem 0;
+
+}
+
+.Datum{
+    color: rgb(255, 79, 79);
+}
+
+.RadnoIskustvo ul{
+    margin: 2rem 0;
+}
+
+footer{
+    padding: 2rem 0;
+    text-align: center;
+    line-height: 2;
+}
+footer i{
+    padding: 5px;
+}
+i{
+    color: rgb(255, 79, 79);;
+}
